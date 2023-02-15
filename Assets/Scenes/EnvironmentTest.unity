@@ -666,8 +666,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 189904449}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 22.01, y: -15.97, z: 5.64}
-  m_LocalScale: {x: 1.5900002, y: 7, z: 5.4613533}
+  m_LocalPosition: {x: 22.01, y: -15.969997, z: 5.6400003}
+  m_LocalScale: {x: 1.5900004, y: 7, z: 5.4613523}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 207369056}
@@ -4913,7 +4913,6 @@ GameObject:
   - component: {fileID: 646523544}
   - component: {fileID: 646523543}
   - component: {fileID: 646523542}
-  - component: {fileID: 646523545}
   m_Layer: 0
   m_Name: OfficeEastWall (1)
   m_TagString: Untagged
@@ -4998,20 +4997,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 646523540}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!64 &646523545
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 646523540}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &647074542
 GameObject:
@@ -7839,7 +7824,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -4.2088165, y: 4.0082517, z: 0.059173584}
+  m_ConnectedAnchor: {x: -4.2088165, y: 4.0082517, z: 0.38371277}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -10483,6 +10468,7 @@ GameObject:
   - component: {fileID: 1485944529}
   - component: {fileID: 1485944528}
   - component: {fileID: 1485944527}
+  - component: {fileID: 1485944530}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -10569,6 +10555,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1485944525}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1485944530
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485944525}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1492225677
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11105,6 +11107,7 @@ GameObject:
   - component: {fileID: 1528534212}
   - component: {fileID: 1528534211}
   - component: {fileID: 1528534210}
+  - component: {fileID: 1528534213}
   m_Layer: 0
   m_Name: Plane (12)
   m_TagString: Untagged
@@ -11191,6 +11194,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1528534208}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1528534213
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528534208}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1559751960
 GameObject:
   m_ObjectHideFlags: 0
