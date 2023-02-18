@@ -13165,5 +13165,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7307681090158423721, guid: cb925d50433d7684d9968923581a8aa3,
+        type: 3}
+      propertyPath: m_Pitch
+      value: 2.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 7307681090158423721, guid: cb925d50433d7684d9968923581a8aa3,
+        type: 3}
+      propertyPath: MinDistance
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7307681090158423721, guid: cb925d50433d7684d9968923581a8aa3,
+        type: 3}
+      propertyPath: rolloffMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7307681090158423721, guid: cb925d50433d7684d9968923581a8aa3,
+        type: 3}
+      propertyPath: spreadCustomCurve.m_Curve.Array.data[0].value
+      value: 0.42777777
+      objectReference: {fileID: 0}
+    - target: {fileID: 7307681090158423721, guid: cb925d50433d7684d9968923581a8aa3,
+        type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 0.848
+      objectReference: {fileID: 0}
+    - target: {fileID: 7307681090158423721, guid: cb925d50433d7684d9968923581a8aa3,
+        type: 3}
+      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
+      value: 0.697
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb925d50433d7684d9968923581a8aa3, type: 3}
