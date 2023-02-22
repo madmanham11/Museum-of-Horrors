@@ -151,7 +151,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6442389}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -196,12 +196,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: One of the most profitable horror movies ever made, this tale of an exorcism
-    is based loosely on actual events. When young Regan starts acting odd -- levitating,
-    speaking in tongues -- her worried mother seeks medical help, only to hit a dead
-    end. A local priest, however, thinks the girl may be seized by the devil. The
-    priest makes a request to perform an exorcism, and the church sends in an expert
-    to help with the difficult job.
+  m_Text: In Wes Craven's classic slasher film, several Midwestern teenagers fall
+    prey to Freddy Krueger, a disfigured midnight mangler who preys on the teenagers
+    in their dreams -- which, in turn, kills them in reality. After investigating
+    the phenomenon, Nancy begins to suspect that a dark secret kept by her and her
+    friends' parents may be the key to unraveling the mystery, but can Nancy and
+    her boyfriend Glen solve the puzzle before it's too late?
 --- !u!222 &6442392
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -383,7 +383,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: -1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -1439,7 +1439,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 5fe8a90e166a8294d89b53cf8c6c7480, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -1629,7 +1629,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 5fe8a90e166a8294d89b53cf8c6c7480, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -1785,91 +1785,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 131978300}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1001 &139076488
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 581302831}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 6a90ac3f768f27547a847b33d56f12fe,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a90ac3f768f27547a847b33d56f12fe,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 250.00012
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a90ac3f768f27547a847b33d56f12fe,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 359.99985
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a90ac3f768f27547a847b33d56f12fe,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a90ac3f768f27547a847b33d56f12fe,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a90ac3f768f27547a847b33d56f12fe,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a90ac3f768f27547a847b33d56f12fe,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a90ac3f768f27547a847b33d56f12fe,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a90ac3f768f27547a847b33d56f12fe,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a90ac3f768f27547a847b33d56f12fe,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a90ac3f768f27547a847b33d56f12fe,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a90ac3f768f27547a847b33d56f12fe,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a90ac3f768f27547a847b33d56f12fe,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6a90ac3f768f27547a847b33d56f12fe,
-        type: 3}
-      propertyPath: m_Name
-      value: EntrancePosterFrame
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6a90ac3f768f27547a847b33d56f12fe, type: 3}
---- !u!4 &139076489 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6a90ac3f768f27547a847b33d56f12fe,
-    type: 3}
-  m_PrefabInstance: {fileID: 139076488}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &155718352
 GameObject:
   m_ObjectHideFlags: 0
@@ -2109,7 +2024,6 @@ GameObject:
   - component: {fileID: 164491258}
   - component: {fileID: 164491261}
   - component: {fileID: 164491260}
-  - component: {fileID: 164491259}
   m_Layer: 0
   m_Name: Poster (1)
   m_TagString: Untagged
@@ -2138,23 +2052,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.027, y: 0}
   m_SizeDelta: {x: 500, y: 700}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &164491259
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 164491257}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
 --- !u!114 &164491260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2195,7 +2092,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: -1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -2598,7 +2495,6 @@ GameObject:
   - component: {fileID: 205431825}
   - component: {fileID: 205431828}
   - component: {fileID: 205431827}
-  - component: {fileID: 205431826}
   m_Layer: 0
   m_Name: Poster (6)
   m_TagString: Untagged
@@ -2620,30 +2516,13 @@ RectTransform:
   m_Children:
   - {fileID: 1007805957}
   m_Father: {fileID: 552716649}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: -0.09, y: 0}
   m_SizeDelta: {x: 500, y: 654.5}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &205431826
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 205431824}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
 --- !u!114 &205431827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2684,7 +2563,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: -1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -3170,7 +3049,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 5fe8a90e166a8294d89b53cf8c6c7480, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -3455,7 +3334,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
         type: 3}
@@ -3941,7 +3820,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 290964642}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3986,12 +3865,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: One of the most profitable horror movies ever made, this tale of an exorcism
-    is based loosely on actual events. When young Regan starts acting odd -- levitating,
-    speaking in tongues -- her worried mother seeks medical help, only to hit a dead
-    end. A local priest, however, thinks the girl may be seized by the devil. The
-    priest makes a request to perform an exorcism, and the church sends in an expert
-    to help with the difficult job.
+  m_Text: On a cold Halloween night in 1963, six year old Michael Myers brutally
+    murdered his 17-year-old sister, Judith. He was sentenced and locked away for
+    15 years. But on October 30, 1978, while being transferred for a court date,
+    a 21-year-old Michael Myers steals a car and escapes Smith's Grove. He returns
+    to his quiet hometown of Haddonfield, Illinois, where he looks for his next victims.
 --- !u!222 &290964645
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4084,7 +3962,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 5fe8a90e166a8294d89b53cf8c6c7480, type: 2}
   m_Color: {r: 0.91764706, g: 0.91764706, b: 0.91764706, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -4433,7 +4311,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 5fe8a90e166a8294d89b53cf8c6c7480, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -4509,7 +4387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 5fe8a90e166a8294d89b53cf8c6c7480, type: 2}
   m_Color: {r: 0.91764706, g: 0.91764706, b: 0.91764706, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -4864,7 +4742,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 405127812}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4909,12 +4787,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: One of the most profitable horror movies ever made, this tale of an exorcism
-    is based loosely on actual events. When young Regan starts acting odd -- levitating,
-    speaking in tongues -- her worried mother seeks medical help, only to hit a dead
-    end. A local priest, however, thinks the girl may be seized by the devil. The
-    priest makes a request to perform an exorcism, and the church sends in an expert
-    to help with the difficult job.
+  m_Text: Jack Torrance becomes winter caretaker at the isolated Overlook Hotel in
+    Colorado, hoping to cure his writer's block. He settles in along with his wife,
+    Wendy, and his son, Danny, who is plagued by psychic premonitions. As Jack's
+    writing goes nowhere and Danny's visions become more disturbing, Jack discovers
+    the hotel's dark secrets and begins to unravel into a homicidal maniac hell-bent
+    on terrorizing his family.
 --- !u!222 &405127815
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5063,7 +4941,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 431880019}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5896,7 +5774,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: -1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -6281,8 +6159,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 979358740}
   - {fileID: 205431825}
+  - {fileID: 979358740}
   m_Father: {fileID: 826487107}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6501,7 +6379,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1095443994}
-  - {fileID: 139076489}
+  - {fileID: 1927772467}
   m_Father: {fileID: 826487107}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6678,7 +6556,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: -1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -7421,7 +7299,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 680686571}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7466,12 +7344,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: One of the most profitable horror movies ever made, this tale of an exorcism
-    is based loosely on actual events. When young Regan starts acting odd -- levitating,
-    speaking in tongues -- her worried mother seeks medical help, only to hit a dead
-    end. A local priest, however, thinks the girl may be seized by the devil. The
-    priest makes a request to perform an exorcism, and the church sends in an expert
-    to help with the difficult job.
+  m_Text: Ashley "Ash" Williams, his girlfriend and three pals hike into the woods
+    to a cabin for a fun night away. There they find an old book, the Necronomicon,
+    whose text reawakens the dead when it's read aloud. The friends inadvertently
+    release a flood of evil and must fight for their lives or become one of the evil
+    dead. Ash watches his friends become possessed, and must make a difficult decision
+    before daybreak to save his own life in this.
 --- !u!222 &680686574
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8944,7 +8822,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: -1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -9752,7 +9630,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
         type: 3}
@@ -10011,7 +9889,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 5fe8a90e166a8294d89b53cf8c6c7480, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -10214,8 +10092,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 248825830}
   - {fileID: 1821904753}
+  - {fileID: 248825830}
   m_Father: {fileID: 826487107}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10295,7 +10173,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: -1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -10501,7 +10379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 5fe8a90e166a8294d89b53cf8c6c7480, type: 2}
   m_Color: {r: 0.91764706, g: 0.91764706, b: 0.91764706, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -10538,7 +10416,6 @@ GameObject:
   - component: {fileID: 1095443994}
   - component: {fileID: 1095443997}
   - component: {fileID: 1095443996}
-  - component: {fileID: 1095443995}
   m_Layer: 0
   m_Name: Poster
   m_TagString: Untagged
@@ -10567,23 +10444,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 500, y: 719}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1095443995
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1095443993}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
 --- !u!114 &1095443996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10624,7 +10484,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: -1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -10960,7 +10820,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1115655599}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11005,12 +10865,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: One of the most profitable horror movies ever made, this tale of an exorcism
-    is based loosely on actual events. When young Regan starts acting odd -- levitating,
-    speaking in tongues -- her worried mother seeks medical help, only to hit a dead
-    end. A local priest, however, thinks the girl may be seized by the devil. The
-    priest makes a request to perform an exorcism, and the church sends in an expert
-    to help with the difficult job.
+  m_Text: Crystal Lake's history of murder doesn't deter counselors from setting
+    up a summer camp in the woodsy area. Superstitious locals warn against it, but
+    the fresh-faced young people -- Jack, Alice, Bill, Marcie and Ned -- pay little
+    heed to the old-timers. Then they find themselves stalked by a brutal killer.
+    As they're slashed, shot and stabbed, the counselors struggle to stay alive against
+    a merciless opponent.
 --- !u!222 &1115655602
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11581,7 +11441,6 @@ GameObject:
   - component: {fileID: 1147745893}
   - component: {fileID: 1147745896}
   - component: {fileID: 1147745895}
-  - component: {fileID: 1147745894}
   m_Layer: 0
   m_Name: Poster (5)
   m_TagString: Untagged
@@ -11610,23 +11469,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 500, y: 759.9}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1147745894
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1147745892}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
 --- !u!114 &1147745895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11667,7 +11509,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: -1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -12238,7 +12080,6 @@ GameObject:
   - component: {fileID: 1172505067}
   - component: {fileID: 1172505070}
   - component: {fileID: 1172505069}
-  - component: {fileID: 1172505068}
   m_Layer: 0
   m_Name: Poster (2)
   m_TagString: Untagged
@@ -12267,23 +12108,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.027, y: 0}
   m_SizeDelta: {x: 500, y: 760}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1172505068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1172505066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
 --- !u!114 &1172505069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12324,7 +12148,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: -1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -12542,7 +12366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 5fe8a90e166a8294d89b53cf8c6c7480, type: 2}
   m_Color: {r: 0.91764706, g: 0.91764706, b: 0.91764706, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -13095,6 +12919,96 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1001 &1248963668
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2010031259}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 384.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3f4052272952ec54585a3d5adc66f081,
+        type: 3}
+      propertyPath: m_Name
+      value: EntrancePosterFrame (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3f4052272952ec54585a3d5adc66f081, type: 3}
+--- !u!4 &1248963669 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
+    type: 3}
+  m_PrefabInstance: {fileID: 1248963668}
+  m_PrefabAsset: {fileID: 0}
 --- !u!54 &1268361920
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13767,96 +13681,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!1001 &1291059114
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 2010031259}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 6a90ac3f768f27547a847b33d56f12fe,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a90ac3f768f27547a847b33d56f12fe,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 250
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a90ac3f768f27547a847b33d56f12fe,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a90ac3f768f27547a847b33d56f12fe,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 384.9
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a90ac3f768f27547a847b33d56f12fe,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a90ac3f768f27547a847b33d56f12fe,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a90ac3f768f27547a847b33d56f12fe,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a90ac3f768f27547a847b33d56f12fe,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a90ac3f768f27547a847b33d56f12fe,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a90ac3f768f27547a847b33d56f12fe,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a90ac3f768f27547a847b33d56f12fe,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a90ac3f768f27547a847b33d56f12fe,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a90ac3f768f27547a847b33d56f12fe,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a90ac3f768f27547a847b33d56f12fe,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 270
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 6a90ac3f768f27547a847b33d56f12fe,
-        type: 3}
-      propertyPath: m_Name
-      value: EntrancePosterFrame (8)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6a90ac3f768f27547a847b33d56f12fe, type: 3}
---- !u!4 &1291059115 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6a90ac3f768f27547a847b33d56f12fe,
-    type: 3}
-  m_PrefabInstance: {fileID: 1291059114}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1294127190
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14855,7 +14679,6 @@ GameObject:
   - component: {fileID: 1411609350}
   - component: {fileID: 1411609353}
   - component: {fileID: 1411609352}
-  - component: {fileID: 1411609351}
   m_Layer: 0
   m_Name: Poster (8)
   m_TagString: Untagged
@@ -14877,30 +14700,13 @@ RectTransform:
   m_Children:
   - {fileID: 326562342}
   m_Father: {fileID: 2010031259}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: -0.1, y: 0}
   m_SizeDelta: {x: 500, y: 769}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1411609351
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1411609349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
 --- !u!114 &1411609352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14941,7 +14747,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: -1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -15208,7 +15014,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 5fe8a90e166a8294d89b53cf8c6c7480, type: 2}
   m_Color: {r: 0.91764706, g: 0.91764706, b: 0.91764706, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -15359,7 +15165,6 @@ GameObject:
   - component: {fileID: 1448878279}
   - component: {fileID: 1448878282}
   - component: {fileID: 1448878281}
-  - component: {fileID: 1448878280}
   m_Layer: 0
   m_Name: Poster (4)
   m_TagString: Untagged
@@ -15388,23 +15193,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.09, y: 0}
   m_SizeDelta: {x: 500, y: 764.6}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1448878280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1448878278}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
 --- !u!114 &1448878281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15445,7 +15233,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: -1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -15807,7 +15595,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 5fe8a90e166a8294d89b53cf8c6c7480, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -15883,7 +15671,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 5fe8a90e166a8294d89b53cf8c6c7480, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -15935,7 +15723,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1516286041}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15980,12 +15768,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: One of the most profitable horror movies ever made, this tale of an exorcism
-    is based loosely on actual events. When young Regan starts acting odd -- levitating,
-    speaking in tongues -- her worried mother seeks medical help, only to hit a dead
-    end. A local priest, however, thinks the girl may be seized by the devil. The
-    priest makes a request to perform an exorcism, and the church sends in an expert
-    to help with the difficult job.
+  m_Text: When Sally hears that her grandfather's grave may have been vandalized,
+    she and her paraplegic brother, Franklin, set out with their friends to investigate.
+    After a detour to their family's old farmhouse, they discover a group of crazed,
+    murderous outcasts living next door. As the group is attacked one by one by the
+    chainsaw-wielding Leatherface, who wears a mask of human skin, the survivors
+    must do everything they can to escape.
 --- !u!222 &1516286044
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16916,7 +16704,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: -1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -17161,7 +16949,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 5fe8a90e166a8294d89b53cf8c6c7480, type: 2}
   m_Color: {r: 0.91764706, g: 0.91764706, b: 0.91764706, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -17368,7 +17156,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1769725477}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17413,12 +17201,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: One of the most profitable horror movies ever made, this tale of an exorcism
-    is based loosely on actual events. When young Regan starts acting odd -- levitating,
-    speaking in tongues -- her worried mother seeks medical help, only to hit a dead
-    end. A local priest, however, thinks the girl may be seized by the devil. The
-    priest makes a request to perform an exorcism, and the church sends in an expert
-    to help with the difficult job.
+  m_Text: When a young woman is killed by a shark while skinny-dipping near the New
+    England tourist town of Amity Island, police chief Martin Brody wants to close
+    the beaches, but mayor Larry Vaughn overrules him, fearing that the loss of tourist
+    revenue will cripple the town. Ichthyologist Matt Hooper and grizzled ship captain
+    Quint offer to help Brody capture the killer beast, and the trio engage in an
+    epic battle of man vs. nature.
 --- !u!222 &1769725480
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17438,7 +17226,6 @@ GameObject:
   - component: {fileID: 1821904753}
   - component: {fileID: 1821904756}
   - component: {fileID: 1821904755}
-  - component: {fileID: 1821904754}
   m_Layer: 0
   m_Name: Poster (7)
   m_TagString: Untagged
@@ -17460,30 +17247,13 @@ RectTransform:
   m_Children:
   - {fileID: 1506617949}
   m_Father: {fileID: 1048149798}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: -0.095, y: 0}
   m_SizeDelta: {x: 500, y: 776}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1821904754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1821904752}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
 --- !u!114 &1821904755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17524,7 +17294,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: -1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -17822,7 +17592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 5fe8a90e166a8294d89b53cf8c6c7480, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -17898,7 +17668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 5fe8a90e166a8294d89b53cf8c6c7480, type: 2}
   m_Color: {r: 0.91764706, g: 0.91764706, b: 0.91764706, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -18110,7 +17880,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 5fe8a90e166a8294d89b53cf8c6c7480, type: 2}
   m_Color: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -18501,7 +18271,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1922119387}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18560,6 +18330,96 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1922119387}
   m_CullTransparentMesh: 1
+--- !u!1001 &1927772466
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 581302831}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 250.00012
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 359.99985
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3f4052272952ec54585a3d5adc66f081,
+        type: 3}
+      propertyPath: m_Name
+      value: EntrancePosterFrame
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3f4052272952ec54585a3d5adc66f081, type: 3}
+--- !u!4 &1927772467 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3f4052272952ec54585a3d5adc66f081,
+    type: 3}
+  m_PrefabInstance: {fileID: 1927772466}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1928895608
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18685,7 +18545,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 5fe8a90e166a8294d89b53cf8c6c7480, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -18787,7 +18647,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: -1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -19146,7 +19006,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: -1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -19362,7 +19222,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: -1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -19625,8 +19485,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1291059115}
   - {fileID: 1411609350}
+  - {fileID: 1248963669}
   m_Father: {fileID: 826487107}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -20162,7 +20022,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 5fe8a90e166a8294d89b53cf8c6c7480, type: 2}
   m_Color: {r: 0.91764706, g: 0.91764706, b: 0.91764706, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -20274,7 +20134,6 @@ GameObject:
   - component: {fileID: 2066234022}
   - component: {fileID: 2066234025}
   - component: {fileID: 2066234024}
-  - component: {fileID: 2066234023}
   m_Layer: 0
   m_Name: Poster (3)
   m_TagString: Untagged
@@ -20303,23 +20162,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.027, y: 0}
   m_SizeDelta: {x: 500, y: 753}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2066234023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2066234021}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
 --- !u!114 &2066234024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20720,8 +20562,18 @@ PrefabInstance:
       objectReference: {fileID: 1294127195}
     - target: {fileID: 1042852716279879240, guid: 8b94dacc6a4714543ad01b1cd4ee2ef0,
         type: 3}
+      propertyPath: m_Range
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1042852716279879240, guid: 8b94dacc6a4714543ad01b1cd4ee2ef0,
+        type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1042852716279879240, guid: 8b94dacc6a4714543ad01b1cd4ee2ef0,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1103158742576331426, guid: 8b94dacc6a4714543ad01b1cd4ee2ef0,
         type: 3}
@@ -20731,37 +20583,37 @@ PrefabInstance:
     - target: {fileID: 1103158742576331426, guid: 8b94dacc6a4714543ad01b1cd4ee2ef0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -46.5
+      value: -34
       objectReference: {fileID: 0}
     - target: {fileID: 1103158742576331426, guid: 8b94dacc6a4714543ad01b1cd4ee2ef0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1103158742576331426, guid: 8b94dacc6a4714543ad01b1cd4ee2ef0,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 14
+      value: 37.6
       objectReference: {fileID: 0}
     - target: {fileID: 1103158742576331426, guid: 8b94dacc6a4714543ad01b1cd4ee2ef0,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 1103158742576331426, guid: 8b94dacc6a4714543ad01b1cd4ee2ef0,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1103158742576331426, guid: 8b94dacc6a4714543ad01b1cd4ee2ef0,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1103158742576331426, guid: 8b94dacc6a4714543ad01b1cd4ee2ef0,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 1103158742576331426, guid: 8b94dacc6a4714543ad01b1cd4ee2ef0,
         type: 3}
@@ -20771,7 +20623,7 @@ PrefabInstance:
     - target: {fileID: 1103158742576331426, guid: 8b94dacc6a4714543ad01b1cd4ee2ef0,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1103158742576331426, guid: 8b94dacc6a4714543ad01b1cd4ee2ef0,
         type: 3}
