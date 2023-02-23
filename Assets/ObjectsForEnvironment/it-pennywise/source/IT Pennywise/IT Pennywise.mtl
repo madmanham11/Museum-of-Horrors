@@ -1,0 +1,34 @@
+newmtl Model001_Material001
+map_Kd hair_d.png
+map_bump hair_n.png
+
+newmtl Model001_Material002
+map_Kd face_d.png
+map_bump face_n.png
+
+newmtl Model001_Material003
+map_Kd Harry_mouth_D.png
+map_bump Harry_mouth_N.png
+
+newmtl Model001_Material004
+map_Kd wear_d.png
+map_bump wear_n.png
+
+newmtl Model001_Material005
+map_Kd teeth_d.png
+map_bump teeth_n.png
+
+newmtl Model001_Material006
+map_Kd eyes_d.png
+map_bump bumpmap_flat.png
+
+newmtl Model001_Material007
+map_Kd string.png
+
+newmtl Model001_Material008
+map_Kd string.png
+
+newmtl Model001_Material009
+map_Kd Ballon_Color.png
+map_bump bumpmap_flat.png
+
