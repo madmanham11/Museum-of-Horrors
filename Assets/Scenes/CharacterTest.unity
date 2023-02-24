@@ -350,8 +350,8 @@ Transform:
   m_LocalScale: {x: 0.38147, y: 0.45192, z: 0.31318998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1376450943}
-  m_RootOrder: 3
+  m_Father: {fileID: 4313581739836838421}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &503652042
 SphereCollider:
@@ -743,12 +743,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1348793655}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1376450943 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8057858321267497828, guid: 719c4ee5a40313d46832f506ca710af4,
-    type: 3}
-  m_PrefabInstance: {fileID: 4313581739836838419}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1602528750
 GameObject:
   m_ObjectHideFlags: 0
@@ -936,6 +930,12 @@ PrefabInstance:
 --- !u!4 &4313581739836838420 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8057858321426249482, guid: 719c4ee5a40313d46832f506ca710af4,
+    type: 3}
+  m_PrefabInstance: {fileID: 4313581739836838419}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4313581739836838421 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8057858320424871778, guid: 719c4ee5a40313d46832f506ca710af4,
     type: 3}
   m_PrefabInstance: {fileID: 4313581739836838419}
   m_PrefabAsset: {fileID: 0}
