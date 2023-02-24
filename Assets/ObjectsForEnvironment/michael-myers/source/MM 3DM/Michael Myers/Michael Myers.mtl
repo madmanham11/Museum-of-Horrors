@@ -1,0 +1,86 @@
+# Blender MTL File: 'None'
+# Material Count: 6
+
+newmtl 24_+knife.knife_0.1_16_16
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.619444 0.505861 0.625759
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\t_knife_bc.png
+map_Bump Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\t_knife_n.png
+map_Ks Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\t_knife_s.png
+map_d Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\t_knife_bc.png
+
+newmtl 24_body_0.1_16_16
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.486968 0.515746 0.505353
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\t_slashermale04_body_bc.png
+map_Bump Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\t_slashermale04_body_n.png
+map_Ks Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\t_slashermale04_body_s.png
+map_d Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\t_slashermale04_body_bc.png
+
+newmtl 24_mask_0.1_16_16.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.656160 0.615362 0.516181
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\t_slashermale04_head_bc.png
+map_Bump Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\t_slashermale04_head_n.png
+map_Ks Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\t_slashermale04_head_s.png
+map_d Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\t_slashermale04_head_bc.png
+
+newmtl 24_neck_0.1_16_16
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.565359 0.718913 0.752923
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\t_slashermale04_body_bc.png
+map_Bump Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\t_slashermale04_head_n.png
+map_Ks Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\t_slashermale04_head_s.png
+map_d Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\t_slashermale04_body_bc.png
+
+newmtl 25_hair1_0.1_16_16
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.531351 0.476105 0.509395
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\t_slashermale04_hair_bc.png
+map_Bump Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\t_slashermale04_hair_n.png
+map_Ks Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\t_slashermale04_hair_s.png
+map_d Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\t_slashermale04_hair_bc.png
+
+newmtl 25_hair2_0.1_16_16
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.567357 0.548926 0.717664
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\t_slashermale04_hair_bc.png
+map_Bump Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\t_slashermale04_hair_n.png
+map_Ks Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\t_slashermale04_hair_s.png
+map_d Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\Dead_by_DayLight_Halloween_Michael_Myers_by_SSPD077\\t_slashermale04_hair_bc.png
