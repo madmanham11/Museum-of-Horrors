@@ -1,0 +1,156 @@
+# Blender MTL File: 'None'
+# Material Count: 14
+
+newmtl mat0
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Patri\\Videos\\mouse\\_NinjaRipper\\2023.01.24_16.43.48_Dolphin.exe_10352\\2023.01.24_16.46.02_Dolphin.exe\\Mesh_0027out0_tex00.png
+
+newmtl mat0.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Patri\\Videos\\mouse\\_NinjaRipper\\2023.01.24_16.43.48_Dolphin.exe_10352\\2023.01.24_16.46.02_Dolphin.exe\\Mesh_0025out0_tex00.png
+
+newmtl mat0.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Patri\\Videos\\mouse\\_NinjaRipper\\2023.01.24_16.43.48_Dolphin.exe_10352\\2023.01.24_16.46.02_Dolphin.exe\\Mesh_0023out0_tex00.png
+
+newmtl mat0.003
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Patri\\Videos\\mouse\\_NinjaRipper\\2023.01.24_16.43.48_Dolphin.exe_10352\\2023.01.24_16.46.02_Dolphin.exe\\Mesh_0021out0_tex00.png
+
+newmtl mat0.004
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Patri\\Videos\\mouse\\_NinjaRipper\\2023.01.24_16.43.48_Dolphin.exe_10352\\2023.01.24_16.46.02_Dolphin.exe\\Mesh_0019out0_tex00.png
+
+newmtl mat0.005
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Patri\\Videos\\mouse\\_NinjaRipper\\2023.01.24_16.43.48_Dolphin.exe_10352\\2023.01.24_16.46.02_Dolphin.exe\\Mesh_0017out0_tex00.png
+
+newmtl mat0.006
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Patri\\Videos\\mouse\\_NinjaRipper\\2023.01.24_16.43.48_Dolphin.exe_10352\\2023.01.24_16.46.02_Dolphin.exe\\Mesh_0015out0_tex00.png
+
+newmtl mat0.007
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Patri\\Videos\\mouse\\_NinjaRipper\\2023.01.24_16.43.48_Dolphin.exe_10352\\2023.01.24_16.46.02_Dolphin.exe\\Mesh_0013out0_tex00.png
+
+newmtl mat0.008
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Patri\\Videos\\mouse\\_NinjaRipper\\2023.01.24_16.43.48_Dolphin.exe_10352\\2023.01.24_16.46.02_Dolphin.exe\\Mesh_0011out0_tex00.png
+
+newmtl mat0.009
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Patri\\Videos\\mouse\\_NinjaRipper\\2023.01.24_16.43.48_Dolphin.exe_10352\\2023.01.24_16.46.02_Dolphin.exe\\Mesh_0009out0_tex00.png
+
+newmtl mat0.010
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Patri\\Videos\\mouse\\_NinjaRipper\\2023.01.24_16.43.48_Dolphin.exe_10352\\2023.01.24_16.46.02_Dolphin.exe\\Mesh_0007out0_tex00.png
+
+newmtl mat0.011
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Patri\\Videos\\mouse\\_NinjaRipper\\2023.01.24_16.43.48_Dolphin.exe_10352\\2023.01.24_16.46.02_Dolphin.exe\\Mesh_0005out0_tex00.png
+
+newmtl mat0.012
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Patri\\Videos\\mouse\\_NinjaRipper\\2023.01.24_16.43.48_Dolphin.exe_10352\\2023.01.24_16.46.02_Dolphin.exe\\Mesh_0003out0_tex00.png
+
+newmtl mat0.013
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Patri\\Videos\\mouse\\_NinjaRipper\\2023.01.24_16.43.48_Dolphin.exe_10352\\2023.01.24_16.46.02_Dolphin.exe\\Mesh_0001out0_tex00.png
