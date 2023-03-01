@@ -163,7 +163,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 764484ec2bade724c844bc2ac6452000,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -29.24469
+      value: -30.74
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 764484ec2bade724c844bc2ac6452000,
         type: 3}
@@ -6624,7 +6624,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 254e77bc99f3b2d4e8f9eb77c6806944,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -25
+      value: -26.48
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 254e77bc99f3b2d4e8f9eb77c6806944,
         type: 3}
@@ -27898,13 +27898,13 @@ Animation:
   m_GameObject: {fileID: 927588951358587197}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: -2486675036430019659, guid: cd272b84538031e48bb9bda1ee122a99,
+  m_Animation: {fileID: -498607473121760582, guid: cd272b84538031e48bb9bda1ee122a99,
     type: 3}
   m_Animations:
   - {fileID: -498607473121760582, guid: cd272b84538031e48bb9bda1ee122a99, type: 3}
   m_WrapMode: 0
   m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
+  m_AnimatePhysics: 1
   m_CullingType: 0
 --- !u!4 &1053580045176968313
 Transform:
