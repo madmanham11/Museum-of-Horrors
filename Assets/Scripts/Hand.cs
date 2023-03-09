@@ -103,25 +103,31 @@ public class Hand : MonoBehaviour
     {
         _isGrabbing = true;
 
+        // Create a grab point
         _grabPoint = new GameObject().transform;
         _grabPoint.position = collider.ClosestPoint(palm.position);
         _grabPoint.parent = _heldObject.transform;
 
+        //Move hand to grab point
         _followTarget = _grabPoint;
 
+        // Wait for hand to reach grab point
         while (Vector3.Distance(_grabPoint.position, palm.position) > joinDistance && _isGrabbing)
         {
             yield return new WaitForEndOfFrame();
         }
 
+        // Freeze hand and object motion
         _body.velocity = Vector3.zero;
         _body.angularVelocity = Vector3.zero;
+        //_body.rotation = Quaternion.;
         targetBody.velocity = Vector3.zero;
         targetBody.angularVelocity = Vector3.zero;
 
         targetBody.collisionDetectionMode = CollisionDetectionMode.Continuous;
         targetBody.interpolation = RigidbodyInterpolation.Interpolate;
 
+        // Attach joints
         _joint1 = gameObject.AddComponent<FixedJoint>();
         _joint1.connectedBody = targetBody;
         _joint1.breakForce = float.PositiveInfinity;
