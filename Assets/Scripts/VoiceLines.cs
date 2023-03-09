@@ -6,6 +6,7 @@ public class VoiceLines : MonoBehaviour
 {
     [SerializeField] private float threshold = .1f;
     [SerializeField] private float deadZone = 0.025f;
+    [SerializeField] private AudioSource _audioSource;
 
     private bool _isPressed;
     private bool _isVisable;
@@ -13,11 +14,10 @@ public class VoiceLines : MonoBehaviour
     private ConfigurableJoint _joint;
     private bool _hasPlayed;
 
-    public AudioSource _audioSource;
+    
     // Start is called before the first frame update
     void Start()
     {
-        _audioSource = GetComponent<AudioSource>();
         _hasPlayed = false;
         _isPressed = false;
         _isVisable = true;

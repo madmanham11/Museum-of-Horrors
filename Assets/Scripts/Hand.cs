@@ -10,8 +10,8 @@ public class Hand : MonoBehaviour
 {
     [Space]
     [SerializeField] private ActionBasedController controller;
-    [SerializeField] private float followSpeed = 30f;
-    [SerializeField] private float rotateSpeed = 100f;
+    [SerializeField] private float followSpeed;
+    [SerializeField] private float rotateSpeed;
     [Space]
     [SerializeField] private Vector3 positionOffset;
     [SerializeField] private Vector3 rotationOffset;
@@ -53,6 +53,7 @@ public class Hand : MonoBehaviour
         var positionWithOffset = _followTarget.TransformPoint(positionOffset);
         var distance = Vector3.Distance(positionWithOffset, transform.position);
         _body.velocity = (positionWithOffset - transform.position).normalized * (followSpeed * distance * Time.deltaTime);
+        //_body.velocity = (positionWithOffset - transform.position) / Time.fixedTime;
 
         // Rotation
         var rotationWithOffset = _followTarget.rotation * Quaternion.Euler(rotationOffset);
