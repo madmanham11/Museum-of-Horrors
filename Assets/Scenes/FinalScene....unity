@@ -22003,12 +22003,12 @@ PrefabInstance:
     - target: {fileID: 1780802371060944327, guid: 2bcc5da31ca9ace4e8b616f8278dc061,
         type: 3}
       propertyPath: m_SpotAngle
-      value: 90
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 1780802371060944327, guid: 2bcc5da31ca9ace4e8b616f8278dc061,
         type: 3}
       propertyPath: m_Shadows.m_Type
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1780802371060944327, guid: 2bcc5da31ca9ace4e8b616f8278dc061,
         type: 3}
