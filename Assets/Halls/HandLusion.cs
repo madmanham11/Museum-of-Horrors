@@ -20,8 +20,8 @@ public class HandLusion : MonoBehaviour
     }
     private void GotHands()
     {
-        int chance = ran.Next(0, 10000);
-        if (chance >= 9950)
+        int chance = ran.Next(0, 12500);
+        if (chance >= 12499)
         {
             Debug.Log("Start");
 

@@ -190,7 +190,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &51389365
 Transform:
   m_ObjectHideFlags: 0
@@ -6283,7 +6283,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_ConnectedAnchor: {x: -1.6133957, y: 3.922482, z: 30.678005}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -7114,7 +7114,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -4.2088165, y: 4.0082517, z: 0.059173584}
+  m_ConnectedAnchor: {x: -4.2088165, y: 4.0082517, z: 0.38371277}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -9153,7 +9153,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_ConnectedAnchor: {x: 17.472466, y: 3.8798947, z: 19.74664}
   m_UseSpring: 0
   m_Spring:
     spring: 0

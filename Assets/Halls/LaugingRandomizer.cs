@@ -18,8 +18,8 @@ public class LaugingRandomizer : MonoBehaviour
     }
     private void Update()
     {
-        int chance= ran.Next(0,10000);
-        if (chance >=9980)
+        int chance= ran.Next(0,12500);
+        if (chance >= 12499)
         {
             laughing();
         }

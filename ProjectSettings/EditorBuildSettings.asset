@@ -4,7 +4,28 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/JoeyScene.unity
+    guid: c9dc02506a220424aae42bc1a3f341bd
+  - enabled: 0
+    path: Assets/Scenes/EnvironmentTest.unity
+    guid: b542c9d7b9090fa48b884a39d9943c5d
+  - enabled: 0
+    path: Assets/Scenes/Hallucigen.unity
+    guid: c12c3250c0bbe84409180021cb0e6928
+  - enabled: 0
+    path: Assets/Scenes/Light.unity
+    guid: 6b63d58a401821947803d24fddbe4cf2
+  - enabled: 0
+    path: Assets/Scenes/Sounds.unity
+    guid: 48ca4687db6c54a478a0c6d10dbdb9c8
+  - enabled: 0
+    path: Assets/Scenes/Windows.unity
+    guid: acd66efe20d702c4cb6b9bb676da706c
+  - enabled: 1
+    path: Assets/Scenes/FinalScene....unity
+    guid: 532701649e1146a4da458804471224e6
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}
