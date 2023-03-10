@@ -828,8 +828,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 8057858321049297916}
-  followSpeed: 2500
-  rotateSpeed: 5000
+  followSpeed: 30
+  rotateSpeed: 200
   positionOffset: {x: -0.02, y: 0, z: -0.04}
   rotationOffset: {x: 0, y: 0, z: -90}
   palm: {fileID: 400469607}
@@ -35864,8 +35864,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 8057858321141869211}
-  followSpeed: 2500
-  rotateSpeed: 5000
+  followSpeed: 30
+  rotateSpeed: 200
   positionOffset: {x: -0.02, y: 0, z: -0.04}
   rotationOffset: {x: 0, y: 0, z: 90}
   palm: {fileID: 1690405403}

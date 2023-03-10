@@ -35,11 +35,11 @@ public class Hand : MonoBehaviour
         _body.mass = 20f;
         _body.maxAngularVelocity = 20f;
 
-        _body.position = _followTarget.position;
-        _body.rotation = _followTarget.rotation;
-
         controller.selectAction.action.started += Grab;
         controller.selectAction.action.canceled += Release;
+
+        _body.position = _followTarget.position;
+        _body.rotation = _followTarget.rotation;
     }
 
     // Update is called once per frame
@@ -52,7 +52,8 @@ public class Hand : MonoBehaviour
     {
         var positionWithOffset = _followTarget.TransformPoint(positionOffset);
         var distance = Vector3.Distance(positionWithOffset, transform.position);
-        _body.velocity = (positionWithOffset - transform.position).normalized * (followSpeed * distance * Time.deltaTime);
+        _body.velocity = (positionWithOffset - transform.position).normalized * (followSpeed * distance);
+        //_body.velocity = (positionWithOffset - transform.position).normalized * (followSpeed * distance * Time.deltaTime);
         //_body.velocity = (positionWithOffset - transform.position) / Time.fixedTime;
 
         // Rotation
